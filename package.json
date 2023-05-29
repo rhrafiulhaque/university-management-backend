@@ -7,8 +7,8 @@
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "exlint --fix",
-    "lint-prettier" :" npm lint:chek && npm prettier:check ",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "lint-prettier" :" npm lint:check && npm prettier:check ",    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
